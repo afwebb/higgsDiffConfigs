@@ -162,7 +162,7 @@ XXX_tZjb_XS_PDFunc_DO: -0.009
 ##==================
 ## Raw trigger matching selection is1L2Tau
 ##==================
-XXX_TRIGGER_SELECTION: ( ((matchDLTll01||matchDLTll02||matchDLTll12)|| ( (lep_isTrigMatch_0||lep_isTrigMatch_1||lep_isTrigMatch_2) )) && (RunYear == 2015 && (HLT_2e12_lhloose_L12EM10VH || HLT_mu18_mu8noL1 || HLT_e17_lhloose_mu14) )||(RunYear == 2016 && (HLT_2e17_lhvloose_nod0 || HLT_mu22_mu8noL1 || HLT_e17_lhloose_nod0_mu14) )||(RunYear == 2017 && (HLT_2e24_lhvloose_nod0|| HLT_mu22_mu8noL1 || HLT_e17_lhloose_nod0_mu14)) )
+XXX_TRIGGER_SELECTION: ( ((matchDLTll01||matchDLTll02||matchDLTll12)|| ( (lep_isTrigMatch_0||lep_isTrigMatch_1||lep_isTrigMatch_2) )) && (RunYear == 2015 && (HLT_2e12_lhloose_L12EM10VH || HLT_mu18_mu8noL1 || HLT_e17_lhloose_mu14) )||(RunYear == 2016 && (HLT_2e17_lhvloose_nod0 || HLT_mu22_mu8noL1 || HLT_e17_lhloose_nod0_mu14) )||(RunYear == 2017 && (HLT_2e24_lhvloose_nod0|| HLT_mu22_mu8noL1 || HLT_e17_lhloose_nod0_mu14)||(RunYear == 2018 && (HLT_2e24_lhvloose_nod0|| HLT_mu22_mu8noL1 || HLT_e17_lhloose_nod0_mu14)) ))
 XXX_DLTTRIGGER_SELECTION: (matchDLTll01||matchDLTll02||matchDLTll12||matchDLTll03||matchDLTll13||matchDLTll23)
 XXX_DIMUTRIGGER: (HLT_mu22_mu8noL1||HLT_mu20_mu8noL1||HLT_mu18_mu8noL1)
 ##==================

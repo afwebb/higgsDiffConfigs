@@ -3,7 +3,7 @@
 date
 #sh config/split/combine.sh
 
-CONFIG=higgsDiffConfigs/test3l.config # specify config
+CONFIG=configs/test3l.config # specify config
 
 logs=logs_test3l/   # Folder name for log files
 
