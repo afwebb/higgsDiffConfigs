@@ -1,7 +1,8 @@
 XXX_MVA_2lSS: (1.4*(recoHiggsPt_2lSS-40e3)>150e3 && sigBkg_2lSS_highPt>0.33) || (1.4*(recoHiggsPt_2lSS-40e3)<150e3 && sigBkg_2lSS_lowPt>0.32)
 XXX_MVA_3lF: (recoHiggsPt_3lF>150e3 && sigBkg_3lF_highPt>0.23) || (recoHiggsPt_3lF<150e3 && sigBkg_3lF_lowPt>0.32)
 XXX_MVA_3lS: (recoHiggsPt_3lS>150e3 && sigBkg_3lS_highPt>0.43) || (recoHiggsPt_3lS<150e3 && sigBkg_3lS_lowPt>0.49)
-XXX_decayCut: 0.37
+XXX_decayCut: 0.21
+#XXX_decayCut: 0.37
 #==================
 ##ttH (mH = 125 GeV)
 ##==================
