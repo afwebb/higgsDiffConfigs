@@ -11,6 +11,10 @@ cat jobHiggs2lSSfeatures.config regions_higgsTop2lSS.config samples_features.con
 cat jobHiggs3lSfeatures.config regions_higgsTop3lS.config samples_features.config > higgs3lSfeatures.config
 cat jobHiggs3lFfeatures.config regions_higgsTop3lF.config samples_features.config > higgs3lFfeatures.config
 
+#sigBkg features
+cat jobSigBkg2lSSfeatures.config regions_sigBkg2lSS.config samples_80.config > sigBkg2lSSfeatures.config
+cat jobSigBkg3lfeatures.config regions_sigBkg3l.config samples_80.config > sigBkg3lfeatures.config
+
 #80 configs
 cat name_stat_80.config job_80.config normFactors.config regions_signal.config samples_80.config > stat_80.config
 cat name_stat2l_80.config job_80.config normFactors.config regions_plots2lSS.config samples_80.config > stat2l_80.config
