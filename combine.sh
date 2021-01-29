@@ -17,7 +17,18 @@ cat jobSigBkg3lfeatures.config regions_sigBkg3l.config samples_80.config > sigBk
 
 #80 configs
 cat name_stat_80.config job_80.config normFactors.config regions_signal.config samples_80.config > stat_80.config
+cat name_sys_80.config job_80.config normFactors.config regions_signal.config samples_80.config list_sys.config > sys_80.config
+cat name_testSys.config job_80.config normFactors.config regions_signal.config samples_80.config list_sysTest.config > testSys.config
+
 cat name_stat2l_80.config job_80.config normFactors.config regions_plots2lSS.config samples_80.config > stat2l_80.config
 cat name_stat3l_80.config job_80.config normFactors.config regions_plots3l.config samples_80.config > stat3l_80.config
 
+cat name_sys2l_80.config job_sys.config normFactors.config regions_plots2lSS.config samples_80.config list_sys.config > sys2l_80.config
+cat name_sys3l_80.config job_sys.config normFactors.config regions_plots3l.config samples_80.config list_sys.config > sys3l_80.config
+
+cat job_MVAcut_2lSS.config normFactors.config regions_plots2lSS.config samples_80.config list_sys.config > cut2l_80.config
+cat job_MVAcut_3lS.config normFactors.config regions_plots3l.config samples_80.config list_sys.config > cut3lS_80.config
+cat job_MVAcut_3lF.config normFactors.config regions_plots3l.config samples_80.config list_sys.config > cut3lF_80.config 
+
 cat name_stat_140.config job_140.config normFactors.config regions_blinded.config samples_fullR2.config > stat_140.config
+cat name_sys_140.config job_140.config normFactors.config regions_blinded.config samples_fullR2.config list_sys.config > sys_140.config

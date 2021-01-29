@@ -256,7 +256,8 @@ XXX_CONSTANT_SINGLEMU: FALSE
 ## labelsssss
 ##=================
 XXX_ATLAS_LABEL: Internal
-XXX_AVAILABLE_SYS: ttZ,VV,ttll_lowMass,rareTop,threeTop,fourTop,ttWW,tZ,VVV,tW,ttH_highPt,ttH_lowPt,WtZ,ttgamma_conv,ttgamma_hf_e,ttgamma_hf_mu,ttgamma_QED,ttbar_QED,ttbar_conv,ttbar_hf_e,ttbar_hf_mu
+XXX_AVAILABLE_SYS: ttW,ttZ,VV,ttll_lowMass,rareTop,threeTop,fourTop,ttWW,tZ,VVV,ttH_highPt,ttH_lowPt,WtZ
+#,ttgamma_conv,ttgamma_hf_e,ttgamma_hf_mu,ttgamma_QED,ttbar_QED,ttbar_conv,ttbar_hf_e,ttbar_hf_mu,tW
 ##XXX_AVAILABLE_SYS:VV,ttW,ttll_lowMass,rareTop,threeTop,fourTop,ttZ,ttWW,tZ,VVV,tW,ttH,WtZ,ttgamma,ttbar,Zjets,singletop_schan,singletop_tchan,ttgamma_conv,ttgamma_hf_e,ttgamma_hf_mu,Zjets_conv,Zjets_hf_e,Zjets_hf_mu,singleTop_conv,singleTop_hf_e,singleTop_hf_mu,ttbar_QED,ttbar_conv,ttbar_hf_e,ttbar_hf_mu,ttgamma_QED,
 ##. WtZ missing
 ##=================
